@@ -1,0 +1,26 @@
+{
+  "name": "theneiam/lrucache",
+  "type": "library",
+  "description": "An efficient memory-based Least Recently Used (LRU) cache",
+  "keywords": [
+    "cache",
+    "lru"
+  ],
+  "homepage": "https://github.com/theneiam/lrucache",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugene Nezhuta",
+      "email": "eugene.nezhuta@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cash": "src/"
+    }
+  }
+}
